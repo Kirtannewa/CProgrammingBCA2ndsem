@@ -4,7 +4,6 @@ int main()
 {
 	int age[5]={33,69,44,3,91};
 	int i,j,temp;
-	printf("Before sorting in ascending order\n");
 	for(i=0; i<5; i++)
 	{
 		printf("%d\t",age[i]);
@@ -22,15 +21,8 @@ int main()
 			}
 		}	
 	}
-	printf("\n\nAfter sorting the nunmber in ascending order\n");
-	for(i=0; i<5; i++)
-	{
-		printf("%d\t",age[i]);
-	}
-	printf("\n\nAfter sorting the nunmber in decending order\n");
-	for(i=4; i>=0; i--)
-	{
-		printf("%d\t",age[i]);
-	}
+	printf("\nthe largest number is %d\n",age[4]);
+	printf("\nthe smallest number is %d\n",age[0]);
+	printf("\nthe second largest number is %d\n",age[i-2]);
 	
 }
